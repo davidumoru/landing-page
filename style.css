@@ -1,12 +1,9 @@
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#section-one {
-    flex: 1;
+.section-one {
     background-color: #1F2937;
 }
 
@@ -69,8 +66,10 @@ button {
     border-radius: 10px
 }
 
-#section-two {
+.section-two {
     background-color: #f9faf8;
+    padding: 10px 0 60px;
+
 }
 
 .info-header {
@@ -87,8 +86,33 @@ button {
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin: 50px auto 300px;
 }
 
 .info {
     
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    max-width: 850px;
+}
+
+.quote-id {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 630px;
 }
