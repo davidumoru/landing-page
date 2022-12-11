@@ -5,13 +5,13 @@ body {
 
 .section-one {
     background-color: #1F2937;
-    padding: 0 270px 120px;
+    padding: 0 270px 160px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
+    margin-bottom: 160px;
     padding: 20px 0 0;
 }
 
@@ -69,6 +69,7 @@ button {
 
 .section-two {
     background-color: #f9faf8;
+    padding: 60px 0 150px;
 }
 
 .info-header {
@@ -78,14 +79,14 @@ button {
     font-weight: bolder;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    margin: 0 0 60px;
 }
 
 .box-container {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin: 50px auto 300px;
+
 }
 
 .section-three {
