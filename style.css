@@ -122,3 +122,13 @@ button {
     font-weight: bold;
     padding-left: 630px;
 }
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
