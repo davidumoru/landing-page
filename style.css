@@ -63,7 +63,7 @@ img {
     width: auto;
 }
 
-button {
+.hero-container button {
     background-color: #3882f6;
     font-size: 18px;
     font-weight: bold;
@@ -121,6 +121,43 @@ button {
     font-size: 18px;
     font-weight: bold;
     padding-left: 630px;
+}
+
+.section-four {
+    display: flex;
+    padding: 100px 0;
+    background-color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    display: flex;
+    background-color: #3882f6;
+    padding: 60px 150px;
+    border-radius: 15px;
+    align-items: center;
+    gap: 300px;
+}
+
+.banner-main {
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner-secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.banner button {
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    padding: 10px 35px;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
 }
 
 .footer {
