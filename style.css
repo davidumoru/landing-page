@@ -5,14 +5,14 @@ body {
 
 .section-one {
     background-color: #1F2937;
-    padding: 0 270px 160px;
+    padding: 0 270px 100px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 160px;
-    padding: 20px 0 0;
+    margin-bottom: 70px;
+    padding: 30px 0 0;
 }
 
 .left-header {
@@ -36,6 +36,12 @@ a {
 .hero-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container img {
+    width: 750px;
+    height: 400px;
 }
 
 #hero-main {
@@ -86,7 +92,11 @@ button {
     display: flex;
     justify-content: center;
     gap: 10px;
+}
 
+.box-text {
+    font-size: 18px;
+    width: 170px;
 }
 
 .section-three {
