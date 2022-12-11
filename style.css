@@ -5,13 +5,14 @@ body {
 
 .section-one {
     background-color: #1F2937;
+    padding: 0 270px 120px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 120px;
-    padding: 20px 270px 0;
+    padding: 20px 0 0;
 }
 
 .left-header {
@@ -32,9 +33,9 @@ a {
     font-size: 18px;
 }
 
-.container {
+.hero-container {
     display: flex;
-    margin: 0 270px 120px;
+    justify-content: space-between;
 }
 
 #hero-main {
@@ -68,8 +69,6 @@ button {
 
 .section-two {
     background-color: #f9faf8;
-    padding: 10px 0 60px;
-
 }
 
 .info-header {
@@ -87,10 +86,6 @@ button {
     justify-content: center;
     gap: 10px;
     margin: 50px auto 300px;
-}
-
-.info {
-    
 }
 
 .section-three {
