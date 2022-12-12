@@ -97,6 +97,8 @@ img {
 .box-text {
     font-size: 18px;
     width: 170px;
+    padding: 0 0 0 38px;
+    text-align: center;
 }
 
 .section-three {
