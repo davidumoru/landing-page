@@ -91,13 +91,13 @@ img {
 .box-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .box-text {
     font-size: 18px;
     width: 170px;
-    padding: 0 0 0 38px;
+    padding: 0 0 0 36px;
     text-align: center;
 }
 
