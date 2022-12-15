@@ -22,15 +22,18 @@ body {
     font-weight: bold;
 }
 
-.right-header {
-    display: flex;
-    gap: 30px;    
-}
-
 a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 35px;
 }
 
 .hero-container {
